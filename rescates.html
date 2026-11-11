@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de rescates</title>
+</head>
+<body>
+    <header>
+        <h1>Registro de animales rescatados</h1>
+        <nav aria-label="Navegación principal">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="reportar.html">Reportar un rescate</a></li>
+                <li><a href="rescates.html" aria-current="page">Consultar rescates</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section aria-labelledby="tabla-rescates">
+            <h2 id="tabla-rescates">Listado de rescates</h2>
+            <p>La siguiente tabla contiene datos de ejemplo para mostrar cómo se organizarán
+            los reportes dentro del sistema.</p>
+
+            <table>
+                <caption>Ejemplo de animales registrados como rescatados</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">N.º</th>
+                        <th scope="col">Animal</th>
+                        <th scope="col">Tipo</th>
+                        <th scope="col">Fecha del rescate</th>
+                        <th scope="col">Lugar</th>
+                        <th scope="col">Estado</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>Max</td>
+                        <td>Perro</td>
+                        <td>2026-10-15</td>
+                        <td>Sector Centro</td>
+                        <td>En recuperación</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>Luna</td>
+                        <td>Gato</td>
+                        <td>2026-10-18</td>
+                        <td>Sector Norte</td>
+                        <td>Estable</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>Rocky</td>
+                        <td>Perro</td>
+                        <td>2026-10-21</td>
+                        <td>Sector Sur</td>
+                        <td>Requiere atención veterinaria</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section aria-labelledby="pasos">
+            <h2 id="pasos">¿Cómo registrar un nuevo rescate?</h2>
+            <ol>
+                <li>Ingresar a la opción Reportar un rescate.</li>
+                <li>Completar los datos del animal y de la persona responsable.</li>
+                <li>Verificar que los campos obligatorios estén completos.</li>
+                <li>Seleccionar Enviar reporte.</li>
+            </ol>
+            <p><a href="reportar.html">Abrir formulario de reporte</a></p>
+        </section>
+    </main>
+
+    <footer>
+        <p><a href="index.html">Volver a la página principal</a></p>
+        <p>Sistema de Control de Rescate y Adopción - Proyecto académico HTML5.</p>
+    </footer>
+</body>
+</html>
